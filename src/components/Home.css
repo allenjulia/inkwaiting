@@ -1,0 +1,74 @@
+.container{
+  background-color: rgb(232, 252, 255);
+  height: 100vh;
+}
+
+
+.page-title {
+  display: flex;
+  color: cadetblue;
+  font-size: 7vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 10vh;
+  width: 20vw;
+  margin-left: 2vw;
+  padding-top: 5vh;
+}
+.about-me{
+  font-size: 3vh;
+  color: rgb(116, 103, 116);
+  margin-top: -5vh;
+}
+.info-container{
+  display: flexbox;
+  width: 100vw;
+  flex-direction: row;
+  margin-top: -15vh;
+}
+.contact{
+  color: cadetblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3vh;
+  flex-direction: column;
+  padding: 1vh;
+}
+.info{
+  color:rgb(116, 103, 116);
+
+}
+.insta{
+  margin-left: -40vw;
+}
+
+.email{
+  margin-top: -10vh
+}
+.email-info{
+  margin-top: 0
+}
+
+.venmo{
+  margin-left: 40vw;
+  margin-top: -10vh
+}
+.venmo-info{
+  margin-top: 0
+}
+
+.commissions{
+  display: flex;
+  color: cadetblue;
+  align-items: flex-end;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4vh;
+  flex-direction: column;
+  padding: 1vh;
+  margin-top: -10vh;
+  padding-right: 2vw;
+}
+.commissions-yes-no{
+  color:rgb(116, 103, 116);
+
+}
