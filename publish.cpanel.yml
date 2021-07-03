@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/julia/inkwaiting/inkwaiting-com/publish.cpanel.yml
+    - /bin/cp inkwaiting-com $DEPLOYPATH
